@@ -22,19 +22,17 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 /* src/index.css */
 
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -54,7 +52,6 @@ ol {
 }
 
 img {
-  display: block;
   max-width: 100%;
 }
 
